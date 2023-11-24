@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+
+    border-radius: 5px;
+    z-index: 12;
+    overflow: visible;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000a2e;
+    border-radius: 10px;
+    z-index: 12;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    transition: background-color 1s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000a2e;
+}
